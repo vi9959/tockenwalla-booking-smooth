@@ -75,6 +75,7 @@ const Index = () => {
             <p><strong>Privacy-first:</strong> We only collect what’s necessary to book and manage tokens. No unnecessary tracking.</p>
             <p><strong>Data protection:</strong> Patient and hospital data is secured with industry-standard practices.</p>
             <p><strong>Transparent operations:</strong> Clear, auditable logs for token issuance and updates.</p>
+            <p><strong>No refunds on cancellation:</strong> If you cancel a token, the payment is non-refundable.</p>
           </div>
         </Section>
 
