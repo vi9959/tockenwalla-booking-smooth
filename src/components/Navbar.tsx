@@ -17,7 +17,11 @@ const Navbar = () => {
           <a href="#contact" className="text-muted-foreground hover:text-foreground transition-colors">Contact</a>
         </div>
         <div className="flex items-center gap-2">
-          <a href="#contact">
+          <a
+            href="https://wa.me/919353292757?text=Hi%20TockenWalla%2C%20I%27d%20like%20to%20book%20a%20token."
+            target="_blank"
+            rel="noopener"
+          >
             <Button variant="hero" size="lg">Book a Token</Button>
           </a>
         </div>

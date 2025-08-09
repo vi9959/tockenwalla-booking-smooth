@@ -25,7 +25,13 @@ const Hero = () => {
               streamlines clinic workflow, and keeps doctors in complete control.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
-              <a href="#contact"><Button variant="hero" size="lg">Book a Token</Button></a>
+              <a
+                href="https://wa.me/919353292757?text=Hi%20TockenWalla%2C%20I%27d%20like%20to%20book%20a%20token."
+                target="_blank"
+                rel="noopener"
+              >
+                <Button variant="hero" size="lg">Book a Token</Button>
+              </a>
               <a href="#how" className="story-link text-primary">See how it works</a>
             </div>
           </div>
