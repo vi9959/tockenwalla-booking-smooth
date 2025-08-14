@@ -15,6 +15,8 @@ const Navbar = () => {
           <a href="#benefits" className="text-muted-foreground hover:text-foreground transition-colors">Benefits</a>
           <a href="#policies" className="text-muted-foreground hover:text-foreground transition-colors">Policies</a>
           <a href="#contact" className="text-muted-foreground hover:text-foreground transition-colors">Contact</a>
+          <a href="/terms" className="text-muted-foreground hover:text-foreground transition-colors">Terms</a>
+          <a href="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">Privacy</a>
         </div>
         <div className="flex items-center gap-2">
           <a
