@@ -24,7 +24,7 @@ const Privacy = () => {
             <CardHeader>
               <CardTitle className="text-3xl font-bold">Privacy Policy</CardTitle>
               <CardDescription>
-                Last updated: {new Date().toLocaleDateString()}
+                Last updated: August 16, 2025
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
@@ -66,9 +66,14 @@ const Privacy = () => {
               {/* Sharing of Information */}
               <section>
                 <h2 className="text-xl font-semibold mb-3">Sharing of Information</h2>
-                <p className="text-muted-foreground">
-                  We do not sell or share your personal information except as necessary to fulfill your order (e.g., with payment processors and delivery partners).
-                </p>
+                <div className="space-y-3 text-muted-foreground">
+                  <p>
+                    We do not sell or share your personal information except as necessary to fulfill your order (e.g., with payment processors and delivery partners).
+                  </p>
+                  <p>
+                    <strong>Enhanced Data Sharing:</strong> We may disclose information to regulatory authorities, law enforcement, and government bodies as required by Indian law and RBI guidelines.
+                  </p>
+                </div>
               </section>
 
               <Separator />
@@ -118,8 +123,9 @@ const Privacy = () => {
                 <h2 className="text-xl font-semibold mb-3">Contact Information</h2>
                 <div className="space-y-2 text-muted-foreground">
                   <p>For questions about this policy, contact:</p>
-                  <p><strong>Tokenwalla.com</strong></p>
-                  <p>HINDUPUR - NIMPALLI ROAD - 515201, AP</p>
+                  <p><strong>TokenWalla</strong></p>
+                  <p><strong>Enterprise Name:</strong> TokenWalla</p>
+                  <p><strong>Registered Address:</strong> HINDUPUR - NIMPALLI ROAD - 515201, AP</p>
                   <p>Email: tokentraq@gmail.com</p>
                   <p>WhatsApp: +91 93532 92757</p>
                 </div>

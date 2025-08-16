@@ -24,7 +24,7 @@ const Terms = () => {
             <CardHeader>
               <CardTitle className="text-3xl font-bold">Terms & Conditions</CardTitle>
               <CardDescription>
-                Last updated: {new Date().toLocaleDateString()}
+                Last updated: August 16, 2025
               </CardDescription>
             </CardHeader>
             <CardContent className="space-y-6">
@@ -166,7 +166,9 @@ const Terms = () => {
               <section>
                 <h2 className="text-xl font-semibold mb-3">Business Entity Information</h2>
                 <div className="space-y-2 text-muted-foreground">
-                  <p><strong>TokenWalla is operated by:</strong> tokentraq@gmail.com</p>
+                  <p><strong>TokenWalla is operated by:</strong> K vishnu vardhan</p>
+                  <p><strong>Enterprise Name:</strong> TokenWalla</p>
+                  <p><strong>Udyam Registration Number:</strong> UDYAM-AP-25-0043340</p>
                   <p><strong>Registered Address:</strong> HINDUPUR - NIMPALLI ROAD - 515201, AP</p>
                   <p>This service is intended for legitimate outpatient appointment booking only and not for emergency medical situations.</p>
                 </div>
@@ -178,8 +180,9 @@ const Terms = () => {
               <section>
                 <h2 className="text-xl font-semibold mb-3">Contact Information</h2>
                 <div className="space-y-2 text-muted-foreground">
-                  <p><strong>Tokenwalla.com</strong></p>
-                  <p>HINDUPUR - NIMPALLI ROAD - 515201, AP</p>
+                  <p><strong>TokenWalla</strong></p>
+                  <p><strong>Enterprise Name:</strong> TokenWalla</p>
+                  <p><strong>Registered Address:</strong> HINDUPUR - NIMPALLI ROAD - 515201, AP</p>
                   <p>Email: tokentraq@gmail.com</p>
                   <p>WhatsApp: +91 93532 92757</p>
                 </div>
