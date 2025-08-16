@@ -73,11 +73,11 @@ const Privacy = () => {
 
               <Separator />
 
-              {/* Security */}
+              {/* Data Security and PCI DSS Compliance */}
               <section>
-                <h2 className="text-xl font-semibold mb-3">Security</h2>
+                <h2 className="text-xl font-semibold mb-3">Data Security and PCI DSS Compliance</h2>
                 <p className="text-muted-foreground">
-                  Your data is stored securely. We use industry-standard security measures to protect your personal information.
+                  TokenWalla uses SSL/TLS encryption for all data transmission. All payment processing is handled by Razorpay, a PCI DSS Level 1 certified payment gateway. TokenWalla does not store, process, or transmit sensitive card information on our servers. We implement multi-factor authentication for administrative access and conduct regular security audits to maintain compliance with industry standards and regulatory requirements.
                 </p>
               </section>
 

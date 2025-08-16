@@ -78,11 +78,45 @@ const Terms = () => {
 
               <Separator />
 
+              {/* KYC and Verification Requirements */}
+              <section>
+                <h2 className="text-xl font-semibold mb-3">KYC and Verification Requirements</h2>
+                <p className="text-muted-foreground">
+                  By using TokenWalla services, you consent to provide accurate identity verification documents (KYC) as required by TokenWalla, Razorpay, or regulatory authorities. You agree to ongoing verification processes and understand that non-compliance may result in service suspension or transaction restrictions. TokenWalla and its payment partners reserve the right to request additional documentation at any time to comply with RBI guidelines and anti-money laundering regulations.
+                </p>
+              </section>
+
+              <Separator />
+
               {/* Cancellations & Refunds */}
               <section>
                 <h2 className="text-xl font-semibold mb-3">Cancellations & Refunds</h2>
+                <ul className="space-y-2 text-muted-foreground list-disc list-inside">
+                  <li>Cancellations must be requested at least 2 hours before your scheduled appointment time</li>
+                  <li>Refunds (where applicable) will be processed within 5-7 working days to your original payment method</li>
+                  <li>Emergency cancellations due to medical reasons may be considered on a case-by-case basis with proper documentation</li>
+                  <li>Processing fees may be deducted from refund amounts as per Razorpay's policy</li>
+                  <li>No-shows without prior cancellation are non-refundable</li>
+                </ul>
+              </section>
+
+              <Separator />
+
+              {/* Regulatory Compliance and Monitoring */}
+              <section>
+                <h2 className="text-xl font-semibold mb-3">Regulatory Compliance and Monitoring</h2>
                 <p className="text-muted-foreground">
-                  If you cancel a token, the payment is non-refundable. Please review our cancellation policy carefully before booking.
+                  By using TokenWalla, you consent to transaction monitoring, data analysis, and periodic audits conducted by TokenWalla, Razorpay, or authorized regulatory bodies to prevent fraud, ensure compliance with Indian laws, and meet anti-money laundering (AML) requirements. You agree that suspicious activities may be reported to relevant authorities as required by law.
+                </p>
+              </section>
+
+              <Separator />
+
+              {/* Payment Partner Rights */}
+              <section>
+                <h2 className="text-xl font-semibold mb-3">Payment Partner Rights</h2>
+                <p className="text-muted-foreground">
+                  TokenWalla uses Razorpay as its payment partner. You acknowledge that Razorpay and TokenWalla reserve the right to suspend services, hold settlements, restrict account access, or terminate services if there are compliance violations, suspicious activities, chargebacks, or requests from regulatory authorities. Users agree to cooperate with all compliance investigations and provide requested documentation promptly.
                 </p>
               </section>
 
@@ -124,6 +158,18 @@ const Terms = () => {
                 <p className="text-muted-foreground">
                   These Terms are governed by and construed per the laws of India.
                 </p>
+              </section>
+
+              <Separator />
+
+              {/* Business Entity Information */}
+              <section>
+                <h2 className="text-xl font-semibold mb-3">Business Entity Information</h2>
+                <div className="space-y-2 text-muted-foreground">
+                  <p><strong>TokenWalla is operated by:</strong> tokentraq@gmail.com</p>
+                  <p><strong>Registered Address:</strong> HINDUPUR - NIMPALLI ROAD - 515201, AP</p>
+                  <p>This service is intended for legitimate outpatient appointment booking only and not for emergency medical situations.</p>
+                </div>
               </section>
 
               <Separator />

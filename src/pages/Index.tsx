@@ -80,10 +80,29 @@ const Index = () => {
                 <p><strong>Services:</strong> Tokenwalla.com provides hospital token booking services to reduce wait times and streamline patient management.</p>
                 <p><strong>Account Responsibility:</strong> You are responsible for maintaining the confidentiality of your account details and for all activities under your account.</p>
                 <p><strong>Payments:</strong> All payments on Tokenwalla.com must comply with our payment partner requirements, including Razorpay. Orders are processed only after successful payment.</p>
-                <p><strong>Cancellations & Refunds:</strong> If you cancel a token, the payment is non-refundable. Please review our cancellation policy carefully before booking.</p>
+                
+                <p><strong>KYC and Verification Requirements:</strong> By using TokenWalla services, you consent to provide accurate identity verification documents (KYC) as required by TokenWalla, Razorpay, or regulatory authorities. You agree to ongoing verification processes and understand that non-compliance may result in service suspension or transaction restrictions. TokenWalla and its payment partners reserve the right to request additional documentation at any time to comply with RBI guidelines and anti-money laundering regulations.</p>
+                
+                <div className="ml-4 space-y-2">
+                  <p><strong>Cancellations & Refunds:</strong></p>
+                  <ul className="list-disc list-inside ml-4 space-y-1">
+                    <li>Cancellations must be requested at least 2 hours before your scheduled appointment time</li>
+                    <li>Refunds (where applicable) will be processed within 5-7 working days to your original payment method</li>
+                    <li>Emergency cancellations due to medical reasons may be considered on a case-by-case basis with proper documentation</li>
+                    <li>Processing fees may be deducted from refund amounts as per Razorpay's policy</li>
+                    <li>No-shows without prior cancellation are non-refundable</li>
+                  </ul>
+                </div>
+                
+                <p><strong>Regulatory Compliance and Monitoring:</strong> By using TokenWalla, you consent to transaction monitoring, data analysis, and periodic audits conducted by TokenWalla, Razorpay, or authorized regulatory bodies to prevent fraud, ensure compliance with Indian laws, and meet anti-money laundering (AML) requirements. You agree that suspicious activities may be reported to relevant authorities as required by law.</p>
+                
+                <p><strong>Payment Partner Rights:</strong> TokenWalla uses Razorpay as its payment partner. You acknowledge that Razorpay and TokenWalla reserve the right to suspend services, hold settlements, restrict account access, or terminate services if there are compliance violations, suspicious activities, chargebacks, or requests from regulatory authorities. Users agree to cooperate with all compliance investigations and provide requested documentation promptly.</p>
+                
                 <p><strong>Prohibited Conduct:</strong> You agree not to misuse our platform for unlawful or prohibited activities.</p>
                 <p><strong>Limitation of Liability:</strong> Tokenwalla.com is not liable for any direct or indirect damages resulting from your use of the website.</p>
                 <p><strong>Governing Law:</strong> These Terms are governed by and construed per the laws of India.</p>
+                
+                <p><strong>Business Entity Information:</strong> TokenWalla is operated by tokentraq@gmail.com. Registered Address: HINDUPUR - NIMPALLI ROAD - 515201, AP. This service is intended for legitimate outpatient appointment booking only and not for emergency medical situations.</p>
               </div>
             </div>
 
@@ -94,7 +113,9 @@ const Index = () => {
                 <p><strong>What We Collect:</strong> Name, email, phone number, address (when you register or place orders), payment information (processed securely via Razorpay), and device/browser information for analytics.</p>
                 <p><strong>How We Use Your Information:</strong> To process your orders and deliver services, communicate important updates and offers, for internal analytics and improvements, and to comply with legal requirements.</p>
                 <p><strong>Sharing of Information:</strong> We do not sell or share your personal information except as necessary to fulfill your order (e.g., with payment processors and delivery partners).</p>
-                <p><strong>Security:</strong> Your data is stored securely. We use industry-standard security measures to protect your personal information.</p>
+                
+                <p><strong>Data Security and PCI DSS Compliance:</strong> TokenWalla uses SSL/TLS encryption for all data transmission. All payment processing is handled by Razorpay, a PCI DSS Level 1 certified payment gateway. TokenWalla does not store, process, or transmit sensitive card information on our servers. We implement multi-factor authentication for administrative access and conduct regular security audits to maintain compliance with industry standards and regulatory requirements.</p>
+                
                 <p><strong>Cookies:</strong> Our website may use cookies to enhance user experience and for analytics.</p>
                 <p><strong>Access & Correction:</strong> You may request access or corrections to your information anytime by contacting us.</p>
               </div>
