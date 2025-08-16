@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import logo from "@/assets/tockenwalla-logo.png";
 
 const Navbar = () => {
@@ -15,8 +16,8 @@ const Navbar = () => {
           <a href="#benefits" className="text-muted-foreground hover:text-foreground transition-colors">Benefits</a>
           <a href="#policies" className="text-muted-foreground hover:text-foreground transition-colors">Policies</a>
           <a href="#contact" className="text-muted-foreground hover:text-foreground transition-colors">Contact</a>
-          <a href="/terms" className="text-muted-foreground hover:text-foreground transition-colors">Terms</a>
-          <a href="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">Privacy</a>
+          <Link to="/terms" className="text-muted-foreground hover:text-foreground transition-colors">Terms</Link>
+          <Link to="/privacy" className="text-muted-foreground hover:text-foreground transition-colors">Privacy</Link>
         </div>
         <div className="flex items-center gap-2">
           <a
