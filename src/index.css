@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-/* TockenWalla Design System - All colors are HSL variables */
+/* TokenWalla Design System - All colors are HSL variables */
 
 @layer base {
   :root {

@@ -25,7 +25,7 @@ const ContactForm = () => {
       return;
     }
 
-    const subject = encodeURIComponent(`Inquiry — ${name || "TockenWalla Website"}`);
+    const subject = encodeURIComponent(`Inquiry — ${name || "TokenWalla Website"}`);
     const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`);
     window.location.href = `mailto:tokentraq@gmail.com?subject=${subject}&body=${body}`;
   };

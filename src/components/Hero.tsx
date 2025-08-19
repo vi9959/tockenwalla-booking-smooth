@@ -18,7 +18,7 @@ const Hero = () => {
 
           <div className="relative max-w-3xl">
             <h1 className="text-4xl md:text-6xl font-extrabold leading-tight">
-              TockenWalla — Smart Tokens. Smooth Care.
+              TokenWalla — Smart Tokens. Smooth Care.
             </h1>
             <p className="mt-4 text-lg md:text-xl text-muted-foreground">
               The AI-powered hospital token booking system that reduces waiting times,
@@ -26,7 +26,7 @@ const Hero = () => {
             </p>
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <a
-                href="https://wa.me/919353292757?text=Hi%20TockenWalla%2C%20I%27d%20like%20to%20book%20a%20token."
+                href="https://wa.me/919353292757?text=Hi%20TokenWalla%2C%20I%27d%20like%20to%20book%20a%20token."
                 target="_blank"
                 rel="noopener"
               >

@@ -20,9 +20,9 @@ const Index = () => {
       <main>
         <Hero />
 
-        <Section id="about" title="About TockenWalla">
+        <Section id="about" title="About TokenWalla">
           <p>
-            TockenWalla was built to solve a simple but critical problem: long, stressful waiting times in clinics and hospitals.
+            TokenWalla was built to solve a simple but critical problem: long, stressful waiting times in clinics and hospitals.
             By combining real-time token booking with intelligent queue management, we bring transparency for patients and a calmer, more
             organized flow for doctors and staff.
           </p>
@@ -142,7 +142,7 @@ const Index = () => {
                 <h3 className="font-semibold mb-3">Reach out directly</h3>
                 <div className="flex flex-wrap gap-3">
                   <a
-                    href="https://wa.me/919353292757?text=Hi%20TockenWalla%2C%20I%27d%20like%20to%20inquire%20about%20hospital%20token%20booking."
+                    href="https://wa.me/919353292757?text=Hi%20TokenWalla%2C%20I%27d%20like%20to%20inquire%20about%20hospital%20token%20booking."
                     target="_blank" rel="noopener"
                   >
                     <Button variant="secondary" className="hover-scale">WhatsApp: +91 9353292757</Button>
@@ -165,7 +165,7 @@ const Index = () => {
           <div className="container text-center text-sm text-muted-foreground">
             <div className="flex items-center justify-center gap-2">
               <Activity className="h-4 w-4 text-primary" />
-              <span>© {new Date().getFullYear()} TockenWalla. All rights reserved.</span>
+              <span>© {new Date().getFullYear()} TokenWalla. All rights reserved.</span>
             </div>
           </div>
         </footer>
