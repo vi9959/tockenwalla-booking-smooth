@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import { Activity, BadgeCheck, Clock, HeartPulse, LayoutList, ShieldCheck, Stethoscope, Users } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Section = ({ id, title, children }: { id: string; title: string; children: React.ReactNode }) => (
   <section id={id} className="py-16 md:py-24">
@@ -161,11 +162,19 @@ const Index = () => {
           </div>
         </section>
 
-        <footer className="py-10">
-          <div className="container text-center text-sm text-muted-foreground">
-            <div className="flex items-center justify-center gap-2">
-              <Activity className="h-4 w-4 text-primary" />
-              <span>© {new Date().getFullYear()} TokenWalla. All rights reserved.</span>
+        <footer className="py-10 border-t">
+          <div className="container">
+            <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-muted-foreground">
+              <div className="flex items-center gap-2">
+                <Activity className="h-4 w-4 text-primary" />
+                <span>© {new Date().getFullYear()} TokenWalla. All rights reserved.</span>
+              </div>
+              <div className="flex items-center gap-6">
+                <a href="#about" className="hover:text-foreground transition-colors">About</a>
+                <a href="#contact" className="hover:text-foreground transition-colors">Contact</a>
+                <Link to="/terms" className="hover:text-foreground transition-colors">Terms & Conditions</Link>
+                <Link to="/privacy" className="hover:text-foreground transition-colors">Privacy Policy</Link>
+              </div>
             </div>
           </div>
         </footer>
