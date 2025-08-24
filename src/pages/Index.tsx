@@ -3,7 +3,6 @@ import Hero from "@/components/Hero";
 import { Activity, BadgeCheck, Clock, HeartPulse, LayoutList, ShieldCheck, Stethoscope, Users } from "lucide-react";
 import ContactForm from "@/components/ContactForm";
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
 
 const Section = ({ id, title, children }: { id: string; title: string; children: React.ReactNode }) => (
   <section id={id} className="py-16 md:py-24">
@@ -74,7 +73,7 @@ const Index = () => {
         <Section id="policies" title="Our Policies">
           <div className="space-y-8">
             {/* Terms & Conditions */}
-            <div className="space-y-4">
+            <div id="terms" className="space-y-4">
               <h3 className="text-xl font-semibold">Terms & Conditions</h3>
               <div className="space-y-3">
                 <p><strong>Eligibility:</strong> You must be at least 18 years old and capable of entering into a legally binding contract to use our services.</p>
@@ -108,7 +107,7 @@ const Index = () => {
             </div>
 
             {/* Privacy Policy */}
-            <div className="space-y-4">
+            <div id="privacy" className="space-y-4">
               <h3 className="text-xl font-semibold">Privacy Policy</h3>
               <div className="space-y-3">
                 <p><strong>What We Collect:</strong> Name, email, phone number, address (when you register or place orders), payment information (processed securely via Razorpay), and device/browser information for analytics.</p>
@@ -172,8 +171,8 @@ const Index = () => {
               <div className="flex items-center gap-6">
                 <a href="#about" className="hover:text-foreground transition-colors">About</a>
                 <a href="#contact" className="hover:text-foreground transition-colors">Contact</a>
-                <Link to="/terms" className="hover:text-foreground transition-colors">Terms & Conditions</Link>
-                <Link to="/privacy" className="hover:text-foreground transition-colors">Privacy Policy</Link>
+                <a href="#terms" className="hover:text-foreground transition-colors">Terms & Conditions</a>
+                <a href="#privacy" className="hover:text-foreground transition-colors">Privacy Policy</a>
               </div>
             </div>
           </div>
